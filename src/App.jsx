@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import useCurrencyInfo from './hooks/useCurrencyInfo'
+
+import InputBox from './components/InputBox'
 // import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <h1 className='bg-orange-500 text-3xl text-center'>Currenccyyyyy</h1>
+      {/* <InputBox /> */}
     </>
   )
 }
